@@ -7,7 +7,7 @@ function App() {
      <Navbar/>
      <hr style={{color:"gray"}}/>
      
-     <Product/>
+     <Product />
     </div>
   );
 }
