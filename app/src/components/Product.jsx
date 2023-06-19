@@ -14,14 +14,14 @@ function Product({searchQuery}) {
                     <div style={{ color: "red", marginTop: "28px" }}>Clear All</div>
                 </div>
                 <div className="box2">
-                    <div>All Wax</div>
-                    <div>Demise</div>
-                    <div>Whispies</div>
-                    <div>Strips</div>
-                    <div>Indiviuals</div>
-                    <div>Ahesive</div>
-                    <div>Magnetic</div>
-                    <div>Tools</div>
+                    <div className="box3">All Wax</div>
+                    <div className="box3">Demise</div>
+                    <div className="box3">Whispies</div>
+                    <div className="box3">Strips</div>
+                    <div className="box3">Individuals</div>
+                    <div className="box3">Ahesive</div>
+                    <div className="box3">Magnetic</div>
+                    <div className="box3">Tools</div>
                     <div><input style={{ borderBlockColor: "gray" }} type="search" name="" id="" placeholder="Default Sorting" /></div>
                 </div>
             </div>

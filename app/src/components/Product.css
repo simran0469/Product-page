@@ -30,3 +30,9 @@ justify-content: space-between;
     
 
 }
+.box3{
+    cursor: pointer;
+}
+.box3:hover{
+    color: red;
+}

@@ -1,0 +1,6 @@
+.ProductItem{
+    transition: transform 3s;
+}
+.ProductItem:hover {
+    transform: scale(1.15); 
+}
