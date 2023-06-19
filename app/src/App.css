@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.Navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width:95%
+ 
+}
+.Navbar img{
+  margin-left: 20px;
+
+}

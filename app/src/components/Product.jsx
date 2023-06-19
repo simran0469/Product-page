@@ -1,25 +1,10 @@
 import ProductItem from "../components/ProductItem"
 import "./Product.css";
 import styled from 'styled-components';
-import { useEffect, useState } from "react"
-import axios from "axios"
+
 const url = "https://good-rose-bass-ring.cyclic.app/Product"
 
-function Product() {
-    const [Data, setData] = useState([])
-    const getdata = () => {
-
-        axios.get(url).then((res) => {
-            console.log(res.data)
-            setData(res.data)
-        }).catch((err) => {
-            console.log(err)
-        })
-    }
-
-    useEffect(() => {
-        getdata()
-    })
+function Product({searchQuery}) {
     return (
         <DIV>
         <div>
@@ -76,7 +61,7 @@ function Product() {
                     </div>
                    
                     <div className="Product">
-                        {Data.map((item) => (
+                        {searchQuery.map((item) => (
                             <div style={{ boxShadow: "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px", marginTop: "20px" }}>
                                 <ProductItem
                                     key={item.id}
